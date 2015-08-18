@@ -395,6 +395,20 @@ h2.welcome-title {
     animation-delay: 3.6s;
 }
 
+.offer-bg-home {
+    background: url("../img/offer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 63%;
+    top: 39%;
+    left: 0;
+    -moz-animation-delay: 3.6s;
+    -webkit-animation-delay: 3.6s;
+    animation-delay: 3.6s;
+}
+
 .offer-title {
     color: #4e91c9;
     padding: 30px;
