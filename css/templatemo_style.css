@@ -164,7 +164,7 @@ ul.main-menu li a {
 }
 
 ul.main-menu li a.active {
-    background: #4e91c9;
+    background: #778D87 none repeat scroll 0% 0%;
     color: #fff;
 }
 
@@ -201,7 +201,7 @@ ul.main-menu li a.active {
     }
 
     ul.main-menu li a.active {
-        background: inherit;
+        background: #778D87 none repeat scroll 0% 0%;
         color: #4e91c9;
     }
 }
@@ -274,7 +274,7 @@ h2.welcome-title {
 
 .project-title {
     padding: 60px;
-    background: #5D2929;
+    background: #291C1C;
     margin-bottom: 20px;
     -moz-animation-delay: 0.5s;
     -webkit-animation-delay: 0.5s;
@@ -1013,7 +1013,7 @@ span[class*="border-"] {
     font-size: 12px;
     padding: 10px 15px;
     display: inline-block;
-    background: #423434;
+    background: #778D87;
     font-weight: normal;
 }
 
