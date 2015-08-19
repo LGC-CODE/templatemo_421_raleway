@@ -26,7 +26,9 @@ http://www.templatemo.com/preview/templatemo_421_raleway
 }
 
 .green {
-	color: #0F0;
+	color: #FFEA00;
+    font-size:35px;
+    font-weight: 900;
 }
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
@@ -202,10 +204,10 @@ ul.main-menu li a.active {
 }
 
 h2.welcome-title {
-    font-weight: 100;
+    font-weight: 900;
     color: #fff;
     font-size: 48px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     -moz-animation-delay: 0.1s;
     -webkit-animation-delay: 0.1s;
     animation-delay: 0.1s;
