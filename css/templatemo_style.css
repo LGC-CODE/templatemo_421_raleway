@@ -1021,3 +1021,54 @@ span[class*="border-"] {
     color: #fff;
     background: #302E2E;
 }
+
+/*==================================
+
+animate contact forms
+
+==================================*/
+
+.animatedToggle {
+    display: none;
+}
+
+.animatedToggleIq {
+    display: none;
+}
+
+.toggleOpt {
+    display: block;
+    width: 100%;
+    height: 56px;
+    padding-left: 2px;
+}
+
+.padRight {
+    padding-right: 47px;
+    padding-left: 47px;
+}
+
+/*==================================
+
+animate contact forms-buttons
+
+==================================*/
+.marginTop-btn{
+    margin: 20px auto;
+    color: #FFF;
+    width: 160px;
+    height: 40px;
+    border: none;
+    display: inline;
+}
+
+.messageLeft {
+    background: #2A2A2A;
+    border-radius: 8px;
+}
+
+.messageRight {
+    background: #2A2A2A;
+    border-radius: 8px;
+    float: right;
+}

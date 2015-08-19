@@ -284,7 +284,6 @@
 				<p class="animated fadeInRight">Feel free to talk to us about anything.</p>
 				<ul class="contact-social animated fadeInUp">
 					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
 					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 					<li><a href="#"><i class="fa fa-share-alt"></i></a></li>
 				</ul>
@@ -296,9 +295,33 @@
                             <div id="map_canvas" class="map-canvas"></div>
                         </div>
 					</div>
-					<div class="col-md-6 col-sm-12">
-						<div class="contact-form animated fadeInUp">
+					<div class="col-md-6 col-sm-12 padRight">
+						<div class="toggleOpt">
+							<button class="messageLeft marginTop-btn">Send Message</button>
+							<button class="messageRight marginTop-btn">Service Inquiry</button>
+						</div>
+						<div class="animatedToggle contact-form animated fadeInUp">
 							<h4>Send us a Message</h4>
+							<div class="row">
+								<fieldset class="col-md-6">
+									<input type="text" name="name" placeholder="Your name">
+								</fieldset>
+								<fieldset class="col-md-6">
+									<input type="email" name="email" placeholder="Your name">
+								</fieldset>
+								<fieldset class="col-md-12">
+									<input type="text" name="subject" placeholder="Subject">
+								</fieldset>
+								<fieldset class="col-md-12">
+									<textarea name="message" id="message" cols="30" rows="10" placeholder="Describe your Project"></textarea>
+								</fieldset>
+								<fieldset class="col-md-12">
+									<a href="#" class="message-button">Submit Message</a>
+								</fieldset>
+							</div>
+						</div>
+						<div class="animatedToggleIq contact-form animated fadeInUp">
+							<h4>Send you a Message</h4>
 							<div class="row">
 								<fieldset class="col-md-6">
 									<input type="text" name="name" placeholder="Your name">
