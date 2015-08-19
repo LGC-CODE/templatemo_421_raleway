@@ -820,7 +820,7 @@ span.solid-line {
 .contact-form h4 {
     color: #fff;
     font-size: 24px;
-    margin: 30px 0;
+    margin: 70px 0 27px;
 }
 
 .contact-form input,.contact-form textarea {
@@ -1034,6 +1034,10 @@ animate contact forms
 
 .animatedToggleIq {
     display: none;
+}
+
+.showForm {
+    display: block;
 }
 
 .toggleOpt {

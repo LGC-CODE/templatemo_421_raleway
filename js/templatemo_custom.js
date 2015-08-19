@@ -66,9 +66,6 @@ jQuery(document).ready(function($) {
 		$('.menu-responsive').slideToggle().hide();
 	});
 
-
-
-
 });
 
 
@@ -87,3 +84,15 @@ function loadScript() {
 	    };
 	    var map = new google.maps.Map(document.getElementById('map_canvas'),  mapOptions);
 	}
+
+function toggleForm1(){
+	$('#tggl-msg').removeClass('animatedToggle');
+	$('#tggl-msg').addClass('showForm');
+	$('#btnToggle').removeClass('showForm');
+}
+
+function toggleForm2(){
+	$('#btnToggle').removeClass('animatedToggleIq');
+	$('#btnToggle').addClass('showForm');
+	$('#tggl-msg').removeClass('showForm');
+}
