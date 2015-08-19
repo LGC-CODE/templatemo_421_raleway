@@ -261,7 +261,7 @@ h2.welcome-title {
 
 .project-title {
     padding: 60px;
-    background: #46494f;
+    background: #5D2929;
     margin-bottom: 20px;
     -moz-animation-delay: 0.5s;
     -webkit-animation-delay: 0.5s;
@@ -1000,10 +1000,11 @@ span[class*="border-"] {
     font-size: 12px;
     padding: 10px 15px;
     display: inline-block;
-    background: #a95bc3;
+    background: #423434;
     font-weight: normal;
 }
 
 .pink-button:hover {
     color: #fff;
+    background: #302E2E;
 }
