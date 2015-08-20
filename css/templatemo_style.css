@@ -805,9 +805,9 @@ span.solid-line {
 }
 
 .contact-form {
-    -moz-animation-delay: 3.5s;
-    -webkit-animation-delay: 3.5s;
-    animation-delay: 3.5s;
+    -moz-animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
     padding-right: 30px;
 }
 
@@ -1064,6 +1064,13 @@ animate contact forms-buttons
     height: 40px;
     border: none;
     display: inline;
+}
+
+.marginTop-btn {
+    -moz-animation-delay: 1.3s;
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+    padding-right: 30px;
 }
 
 .messageLeft {
